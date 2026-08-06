@@ -1,4 +1,3 @@
-// src/App.jsx
 import "./App.css";
 import { LanguageProvider } from "./context/LanguageContext";
 import ConfectioneryHeader from "./components/Header";
@@ -10,7 +9,7 @@ function App() {
     <LanguageProvider>
       <ConfectioneryHeader />
       <Hero />
-      <Footer/>
+      <Footer />
     </LanguageProvider>
   );
 }
